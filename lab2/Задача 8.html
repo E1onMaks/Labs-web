@@ -7,33 +7,44 @@
 </head>
 
 <body>
-    <h1>Запись на курсы</h1>
-    <hr>
-    <form action="action.php" method="POST">
-        <p>
-            Имя:<br>
-            <input type="text" placeholder="Введите ваше имя" required>
-        </p>
-        <p>
-            Язык программирования:<br>
-            <label><input type="radio" name="radio" value="C++">C++</label>
-            <br>
-            <label><input type="radio" name="radio" value="PHP">PHP</label>
-            <br>
-            <label><input type="radio" name="radio" value="Java">Java</label>
-        </p>
-        <p>
-            Дополнительная информация:<br>
-            <textarea cols="40" rows="5"></textarea>
-        </p>
-        <p>
-            Секретное слово:<br>
-            <input type="password" placeholder="Введите пароль" required><br>
-            <input type="submit" value="Отправить">
-            <input type="reset" value="Очистить">
-        </p>
-    </form>
-    <hr>
+    <main>
+        <h1>Запись на курсы</h1>
+        <hr>
+        <form action="action.php" method="POST">
+            <p>
+                <label>
+                    Имя:<br>
+                    <input type="text" placeholder="Введите ваше имя" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Язык программирования:<br>
+                    <label><input type="radio" name="radio" value="C++">C++</label>
+                    <br>
+                    <label><input type="radio" name="radio" value="PHP">PHP</label>
+                    <br>
+                    <label><input type="radio" name="radio" value="Java">Java</label>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Дополнительная информация:<br>
+                    <textarea cols="40" rows="5"></textarea>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Секретное слово:<br>
+                    <input type="password" placeholder="Введите пароль" required><br>
+                    <input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить">
+                </label>
+            </p>
+        </form>
+        <hr>
+    </main>
+
     <footer>
         <em>www.bsuir.by</em>
     </footer>
