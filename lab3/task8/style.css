@@ -1,0 +1,27 @@
+ul {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #0b56ea;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #333;
+}
+
+li:not(:last-child)::after {
+    padding: 8px;
+    color: #333;
+    content: "\003e";
+}

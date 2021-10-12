@@ -1,0 +1,23 @@
+    body {
+        position: absolute;
+        margin: 0;
+    }
+    
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        background: #9a9acd;
+        border: 1px solid #7d7d9a;
+        color: #fff;
+        padding: 15px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    main {
+        width: 70%;
+        border: 1px solid #bbbbe6;
+        margin: 65px auto 55px;
+        padding: 20px;
+    }

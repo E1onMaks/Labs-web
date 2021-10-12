@@ -1,0 +1,27 @@
+.table td,
+.table th {
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+table thead {
+    background: #f0f1f4;
+}
+
+table tfoot {
+    background: #121212;
+    text-align: right;
+    color: #fff;
+}
+
+caption {
+    text-align: left;
+    font-size: 17px;
+    font-style: oblique;
+    color: #ccc;
+}
