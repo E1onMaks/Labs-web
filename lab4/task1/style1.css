@@ -1,0 +1,29 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+textarea+textarea {
+    margin-top: 50px;
+}
+
+#both {
+    resize: both;
+}
+
+#none {
+    resize: none;
+}
+
+#horizontal {
+    resize: horizontal;
+}
+
+#vertical {
+    resize: vertical;
+}
