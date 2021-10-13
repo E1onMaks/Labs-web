@@ -1,0 +1,15 @@
+#wavy {
+    text-decoration: underline wavy blue;
+}
+
+#dotted {
+    text-decoration: underline dotted pink;
+}
+
+#dashed {
+    text-decoration: underline dashed green;
+}
+
+#double {
+    text-decoration: underline double red;
+}
