@@ -1,0 +1,37 @@
+#container {
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container div {
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    margin: 3px;
+}
+
+#bottom {
+    background: linear-gradient(to bottom, yellow, white);
+    flex-grow: 1;
+}
+
+#right {
+    background: linear-gradient(to right, yellow, white);
+    flex-grow: 1;
+}
+
+#left {
+    background: linear-gradient(to left, yellow, white);
+    flex-grow: 1;
+}
+
+#cutting {
+    background: linear-gradient(to top, red 33%, white 33%, white 66%, red 66%);
+    flex-grow: 1;
+}
+
+#uneven {
+    background: linear-gradient(to right, red 10%, blue 50%, white 90%, red 100%);
+    flex-grow: 1;
+}
