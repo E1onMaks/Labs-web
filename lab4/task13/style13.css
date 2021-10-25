@@ -1,0 +1,36 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px 15px;
+    background: peachpuff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#pink {
+    background: pink;
+    height: 80px;
+}
+
+#blue {
+    background: steelblue;
+    height: 80px;
+}
+
+#green {
+    background: limegreen;
+    height: 80px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
