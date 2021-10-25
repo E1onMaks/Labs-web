@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    grid-template-columns: minmax(40px, max-content) minmax(40px, max-content);
+    grid-template-rows: minmax(60px, max-content) minmax(60px, max-content) minmax(60px, max-content);
+}
+
+@media all {
+    div {
+        border: 1px solid;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+
+@media screen {
+    body {
+        font-family: sans-serif;
+    }
+}
+
+@media print {
+    body {
+        width: minmax(800px, 1280px);
+        height: minmax(600px, 900px);
+    }
+}
