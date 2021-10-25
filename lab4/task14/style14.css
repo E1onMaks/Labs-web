@@ -1,0 +1,166 @@
+.background {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgb(208, 223, 229);
+}
+
+.house {
+    position: relative;
+    width: 270px;
+    height: 80px;
+    left: 115px;
+    top: 100px;
+    z-index: 1;
+    background: white;
+}
+
+.house::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    border-bottom: 30px solid rgb(214, 107, 84);
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 220px;
+    left: 20px;
+    bottom: 30px;
+    z-index: 1;
+}
+
+.house::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    left: 80px;
+    bottom: 142px;
+    z-index: 1;
+    background: rgb(214, 107, 84);
+}
+
+.window {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 35px;
+    left: 80px;
+    bottom: 15px;
+    margin: 1px;
+    z-index: 1;
+    background: rgb(112, 112, 112);
+}
+
+#empty {
+    width: 15px;
+    background: white;
+}
+
+.tower {
+    position: relative;
+    width: 80px;
+    height: 180px;
+    left: 115px;
+    top: 160px;
+    z-index: 1;
+    background: white;
+}
+
+.tower::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    border: 40px solid transparent;
+    border-bottom: 50px solid rgb(214, 107, 84);
+    bottom: 90px;
+    z-index: 1;
+}
+
+.tower::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 40px;
+    left: 25px;
+    bottom: 70px;
+    z-index: 1;
+    background: rgb(112, 112, 112);
+}
+
+.cloud {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    background: rgb(241, 245, 251);
+}
+
+#cloud1 {
+    bottom: 150px;
+    animation: cloud1 10s linear infinite;
+}
+
+#cloud1::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    top: 10px;
+    left: 40px;
+    background: rgb(241, 245, 251);
+}
+
+#cloud2 {
+    bottom: 130px;
+    transform: scale(0.75);
+    animation: cloud2 10s linear infinite;
+}
+
+#cloud3 {
+    bottom: 165px;
+    animation: cloud3 10s linear infinite;
+}
+
+#cloud3::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    top: 10px;
+    right: 20px;
+    background: rgb(241, 245, 251);
+}
+
+@keyframes cloud1 {
+    from {
+        left: -240px;
+    }
+    to {
+        left: 480px;
+    }
+}
+
+@keyframes cloud2 {
+    from {
+        left: -180px;
+    }
+    to {
+        left: 540px;
+    }
+}
+
+@keyframes cloud3 {
+    from {
+        left: -80px;
+    }
+    to {
+        left: 640px;
+    }
+}
