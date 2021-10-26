@@ -1,7 +1,7 @@
 main {
     display: grid;
-    grid-template-columns: minmax(40px, max-content) minmax(40px, max-content);
-    grid-template-rows: minmax(60px, max-content) minmax(60px, max-content) minmax(60px, max-content);
+    grid-template-columns: minmax(40px, auto) minmax(40px, auto);
+    grid-template-rows: minmax(60px, auto) minmax(60px, auto) minmax(60px, auto);
 }
 
 @media all {
@@ -21,6 +21,6 @@ main {
 @media print {
     body {
         width: minmax(800px, 1280px);
-        height: minmax(600px, 900px);
+        height: minmax(600px, 720px);
     }
 }
